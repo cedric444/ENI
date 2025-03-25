@@ -1,0 +1,35 @@
+html, body, div, section{
+	display: flex;
+}
+
+body, .redirection{
+	flex-direction: column;
+}
+
+body{
+	width: 100%;
+	justify-content: center;
+	align-items: center;	
+}
+
+section{
+	flex-direction: row;
+}
+
+/*.redirection{
+	flex: 3;
+		
+}*/
+
+.lien{
+	text-decoration : none;
+	border: solid black 2px;
+}
+
+/*.espaace{
+	flex: 2;
+}*/
+
+.espaceHor{
+	height : 2rem;
+}
